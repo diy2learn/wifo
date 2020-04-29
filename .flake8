@@ -1,0 +1,19 @@
+[flake8]
+exclude =
+
+.git,
+
+__pycache__,
+
+tests,
+
+venv,
+
+.eggs
+
+max-complexity = 25
+
+max-line-length = 120
+
+ignore = F821, F811
+
