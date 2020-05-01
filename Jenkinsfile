@@ -2,6 +2,7 @@ pipeline {
   agent {
     docker {
       image 'python:3.6-slim'
+      args '--user 0:0'
     }
 
   }
