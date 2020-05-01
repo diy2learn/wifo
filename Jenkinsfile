@@ -15,7 +15,7 @@ pipeline {
 
     stage('test') {
       steps {
-        sh 'pytest'
+        sh 'pytest --capture=no --no-cov'
       }
     }
 
